@@ -28,19 +28,6 @@ const App = () => {
           <Dropdown />
         </div>
       </nav>
-
-      <div className={styles.body}>
-        <h1>Preferences</h1>
-
-        <div className={styles.preferences}>
-          {options.map((item, index) => {
-            return (
-              <ToggleRow option={item} key={index} index={index} />
-            );
-          })}
-        </div>
-
-      </div>
     </main>
   );
 }
